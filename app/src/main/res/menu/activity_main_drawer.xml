@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/homes"
+            android:icon="@drawable/ic_home"
+            android:title="Home"
+            />
+
+        <item
+            android:id="@+id/bookmarks"
+            android:icon="@drawable/ic_bookmarks"
+            android:title="Bookmarks"/>
+
+        <item
+            android:id="@+id/reqtopic"
+            android:icon="@drawable/ic_reqtopic"
+            android:title="Request Topic"/>
+
+        <item
+            android:id="@+id/investing_quotes"
+            android:icon="@drawable/ic_investing_quotes"
+            android:title="Investing Quotes"/>
+
+
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="Feedback/Suggestion"/>
+
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single" >
+
+        <item
+            android:id="@+id/rateus"
+            android:icon="@drawable/ic_rateus"
+            android:title="Rate us"/>
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="About" />
+
+</group>
+
+
+    <group
+        android:id="@+id/menu_below_bottom"
+        android:checkableBehavior="single" >
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout"/>
+
+    </group>
+
+</menu>
+
