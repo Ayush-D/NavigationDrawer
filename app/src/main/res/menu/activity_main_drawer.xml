@@ -4,67 +4,64 @@
     tools:showIn="navigation_view">
 
     <group
-        android:id="@+id/menu_top"
-        android:checkableBehavior="single">
+        android:id="@+id/menu_top">
 
         <item
             android:id="@+id/homes"
             android:icon="@drawable/ic_home"
-            android:title="Home"
+            android:title="@string/home"
             />
 
         <item
             android:id="@+id/bookmarks"
             android:icon="@drawable/ic_bookmarks"
-            android:title="Bookmarks"/>
+            android:title="@string/bookmarks"/>
 
         <item
             android:id="@+id/reqtopic"
             android:icon="@drawable/ic_reqtopic"
-            android:title="Request Topic"/>
+            android:title="@string/request_topic"/>
 
         <item
             android:id="@+id/investing_quotes"
             android:icon="@drawable/ic_investing_quotes"
-            android:title="Investing Quotes"/>
+            android:title="@string/investing_quotes"/>
 
 
         <item
             android:id="@+id/feedback"
             android:icon="@drawable/ic_feedback"
-            android:title="Feedback/Suggestion"/>
+            android:title="@string/feedback_suggestion"/>
 
     </group>
 
     <group
-        android:id="@+id/menu_bottom"
-        android:checkableBehavior="single" >
+        android:id="@+id/menu_bottom" >
 
         <item
             android:id="@+id/rateus"
             android:icon="@drawable/ic_rateus"
-            android:title="Rate us"/>
+            android:title="@string/rate_us"/>
 
         <item
             android:id="@+id/nav_share"
             android:icon="@drawable/ic_menu_share"
-            android:title="Share" />
+            android:title="@string/share" />
         <item
             android:id="@+id/nav_about"
             android:icon="@drawable/ic_about"
-            android:title="About" />
+            android:title="@string/about" />
 
 </group>
 
 
     <group
-        android:id="@+id/menu_below_bottom"
-        android:checkableBehavior="single" >
+        android:id="@+id/menu_below_bottom" >
 
     <item
         android:id="@+id/logout"
         android:icon="@drawable/ic_logout"
-        android:title="Logout"/>
+        android:title="@string/logout"/>
 
     </group>
 
