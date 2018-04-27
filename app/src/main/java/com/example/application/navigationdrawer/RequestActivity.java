@@ -49,7 +49,7 @@ public class RequestActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         //for Title in Action Bar
-        getSupportActionBar().setTitle("Request Topic");
+        getSupportActionBar().setTitle("Feedback");
     }
 
     @Override
